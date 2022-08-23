@@ -1,0 +1,18 @@
+# Copyright (c) 2021 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+if SHIELD_REIDOX_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Reidox"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_REIDOX_LEFT || SHIELD_REIDOX_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif

@@ -1,0 +1,12 @@
+file_format: "1"
+id: reidox
+name: Reidox
+type: shield
+url: https://github.com/reidevries/reidox-keyboard
+requires: [pro_micro]
+features:
+  - keys
+  - underglow
+siblings:
+  - reidox_left
+  - reidox_right
