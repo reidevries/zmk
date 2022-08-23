@@ -5,6 +5,7 @@
  */
 
 #include "reidox.dtsi"
+#include "reidox_right.dtsi"
 
 &default_transform {
 	col-offset = <7>;
