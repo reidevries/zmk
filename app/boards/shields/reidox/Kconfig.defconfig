@@ -10,6 +10,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_REIDOX_LEFT
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default n
+
+endif
+
 if SHIELD_REIDOX_LEFT || SHIELD_REIDOX_RIGHT
 
 config ZMK_SPLIT

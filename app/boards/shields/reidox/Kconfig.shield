@@ -1,7 +1,8 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
+config SHIELD_REIDOX_RIGHT
+	def_bool $(shields_list_contains,reidox_right)
+
 config SHIELD_REIDOX_LEFT
 	def_bool $(shields_list_contains,reidox_left)
 
-config SHIELD_REIDOX_RIGHT
-	def_bool $(shields_list_contains,reidox_right)
