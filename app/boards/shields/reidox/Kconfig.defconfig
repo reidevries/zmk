@@ -8,9 +8,15 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
 endif
 
 if SHIELD_REIDOX_LEFT
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default n
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default n
